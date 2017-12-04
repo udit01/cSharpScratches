@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Runtime.Serialization;
 
 namespace WebAPIClient
@@ -32,6 +33,22 @@ namespace WebAPIClient
 
         [DataMember(Name="watchers")]
         public int Watchers { get; set; }   
+
+        //Custom field which cannot be modelled in the existing datatypes
+        //Therfore to provide a custom conversion method
+
+        [DataMember(Name="pushed_at")]
+        private string JsonDate { get; set; }
+
+        //store the above raw private data type and the convert it into accessible public
+        [IgnoreDataMember]
+        public DateTime LastPush
+        {//only a get in a property implies a Read-Only property
+            get
+            {
+                return DateTime.ParseExact(JsonDate, "yyyy-MM-ddTHH:mm:ssZ", CultureInfo.InvariantCulture);
+            }
+        }
 
     }
 }

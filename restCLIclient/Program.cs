@@ -21,6 +21,7 @@ namespace WebAPIClient
                 Console.WriteLine(repo.GitHubHomeUrl);
                 Console.WriteLine(repo.Homepage);
                 Console.WriteLine(repo.Watchers);
+                Console.WriteLine(repo.LastPush);
                 Console.WriteLine();
                 count++;
             }
