@@ -1,3 +1,5 @@
+using System;
+using System.IO;
 using System.Collections.Generic;
 
 namespace LinqFaroShuffle
@@ -34,6 +36,17 @@ namespace LinqFaroShuffle
             }
 
             return true;
+        }
+
+        public static IEnumerable<T> LogQuery<T>
+            (this IEnumerable<T> sequence, string tag)
+        {
+            using (var writer = File.AppendText("debug.log"))
+            {
+                writer.WriteLine($"Executing Query {tag}");
+            }
+
+            return sequence;
         }
     }
 }
