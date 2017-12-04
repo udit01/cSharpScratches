@@ -1,0 +1,10 @@
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/bin/Debug/netcoreapp2.0/restCLIclient.deps.json
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/bin/Debug/netcoreapp2.0/restCLIclient.runtimeconfig.json
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/bin/Debug/netcoreapp2.0/restCLIclient.runtimeconfig.dev.json
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/bin/Debug/netcoreapp2.0/restCLIclient.dll
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/bin/Debug/netcoreapp2.0/restCLIclient.pdb
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/obj/Debug/netcoreapp2.0/restCLIclient.csproj.CoreCompileInputs.cache
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/obj/Debug/netcoreapp2.0/restCLIclient.AssemblyInfoInputs.cache
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/obj/Debug/netcoreapp2.0/restCLIclient.AssemblyInfo.cs
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/obj/Debug/netcoreapp2.0/restCLIclient.dll
+/media/udit01/files/code/c#/cSharpsScratches/restCLIclient/obj/Debug/netcoreapp2.0/restCLIclient.pdb
